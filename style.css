@@ -1,0 +1,418 @@
+#nav-bar  {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar  {
+  background: #21323b;
+}
+.navbar-brand img  {
+  padding-left: 100px;
+}
+.navbar-nav li  {
+  padding: 0 10px;
+}
+.navbar-nav li a  {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: right;
+}
+.navbar-toggler-icon  {
+  color: #fff;
+}
+.fa-bars  {
+  color: #fff;
+}
+/* BANNER */
+.wrapper-section {
+  background-image: url('assets/pexels-photo-635405.jpeg');
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+@font-face  {
+  font-family: "Poppins";
+  src: url('assets/Poppins-Regular.ttf');
+}
+@font-face  {
+  font-family: "Signpainter";
+  src: url('assets/SignPainter-HouseScript.ttf');
+}
+.wrapper-section h1  {
+  color: #fff;
+  font-size: 100px;
+  padding-top: 150px;
+  font-family: Signpainter;
+}
+.wrapper-section h4  {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-family: Poppins;
+}
+.btn-green  {
+  background-color: #4fcc4f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* AKHIR BANNER */
+
+/* AWAL WHY SHOULD WE? */
+.container h1  {
+  font-family: Signpainter;
+}
+.container p {
+  font-family: Poppins;
+}
+.wrapper-content1  {
+  padding: 50px;
+}
+.wrapper-badge  {
+  padding-top:50px;
+}
+.wrapper-badge-pic h6  {
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 30px;
+}
+.wrapper-badge-pic p  {
+  font-size: 12px;
+}
+/* AKHIR WHY SHOULD WE? */
+
+/* AWAL OUR SPECIAL SERVICE */
+.col-md-3 .card  {
+  box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+/* AKHIR OUR SPECIAL SERVICE */
+
+/* AWAL PROFILE, CONTACT & EMAIL */
+.wrapper-content3  {
+  background: #21323b;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+.col-lg-4 p  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+}
+.col-lg-4 h5  {
+  color: #fff;
+  font-weight: bold;
+  font-family: Poppins;
+}
+.col-lg-4 address  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+}
+.col-lg-4 button  {
+  text-align: right;
+  float: right;
+  margin-bottom: 20px;
+}
+/* AKHIR PROFILE, CONTACT & EMAIL */
+
+/* AWAL FOOTER */
+.wrapper-footer  {
+  background: #0c1316;
+}
+.row-copy  {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-6 .copyright {
+  color: #fff;
+  font-size: 90%;
+  font-family: Poppins;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+.col-lg-6 .list-inline  {
+  padding-top: 12px;
+  padding-left: 300px;
+}
+/* AKHIR FOOTER */
+@media  (max-width: 480px)  {
+  .navbar-brand img  {
+    padding-left: 30px;
+  }
+  .wrapper-section h1  {
+    color: #fff;
+    font-size: 35px;
+    padding-top: 180px;
+    font-family: Signpainter;
+  }
+  .wrapper-section h4  {
+    color: #fff;
+    font-size: 10px;
+    font-family: Poppins;
+    margin-top: 40px;
+  }
+  .btn-green  {
+    background-color: #4fcc4f;
+    color: #fff;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 2px;
+  }
+/* AWAL WHY SHOULD WE? */
+.wrapper-content1  {
+  padding: px;
+}
+.wrapper-content1 h1  {
+  font-size: 25px;
+}
+.wrapper-content1 p {
+  font-size: 10px;
+}
+.wrapper-badge  {
+  padding-top:30px;
+}
+.wrapper-badge-pic h6  {
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 30px;
+}
+.wrapper-badge-pic p  {
+  font-size: 10px;
+}
+.col-md-3  {
+  margin: 10px;
+}
+/* AKHIR WHY SHOULD WE? */
+
+/* AWAL PROFILE, CONTACT & EMAIL */
+.wrapper-content3  {
+  background: #21323b;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.col-lg-4  {
+  margin: 10px;
+}
+.col-lg-4 p  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+  font-size: 80%;
+}
+.col-lg-4 h5  {
+  color: #fff;
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 115%;
+}
+.col-lg-4 a  {
+  font-size: 80%;
+}
+.col-lg-4 address  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+  font-size: 80%;
+}
+.col-lg-4 button  {
+  text-align: right;
+  float: right;
+}
+/* AKHIR PROFILE, CONTACT & EMAIL */
+
+/* AWAL FOOTER */
+.wrapper-footer  {
+  background: #0c1316;
+}
+.row-copy  {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-6 .copyright {
+  color: #fff;
+  font-size: 70%;
+  font-family: Poppins;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.col-lg-6 .list-inline  {
+  padding-top: 12px;
+  padding-left: 25%;
+  padding-right: 20%;
+}
+
+.list-inline-item a img  {
+  width: 70%;
+}
+/* AKHIR FOOTER */
+}
+@media (min-width: 481px) and (max-width: 768px)  {
+  .wrapper-section h1  {
+  color: #fff;
+  font-size: 55px;
+  padding-top: 200px;
+  font-family: Signpainter;
+}
+.wrapper-section h4  {
+  color: #fff;
+  font-size: 15px;
+  font-family: Poppins;
+}
+.btn-green  {
+  background-color: #4fcc4f;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 3px;
+}
+/* AWAL WHY SHOULD WE? */
+.wrapper-content1  {
+  padding: px;
+}
+.wrapper-content1 h1  {
+  font-size: 35px;
+}
+.wrapper-content1 p {
+  font-size: 13px;
+}
+.wrapper-badge  {
+  padding-top:30px;
+}
+.wrapper-badge-pic h6  {
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 30px;
+}
+.wrapper-badge-pic p  {
+  font-size: 12px;
+}
+/* AKHIR WHY SHOULD WE? */
+
+/* AWAL PROFILE, CONTACT & EMAIL */
+.wrapper-content3  {
+  background: #21323b;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.col-lg-4  {
+  margin: 20px;
+}
+.col-lg-4 p  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+  font-size: 90%;
+}
+.col-lg-4 h5  {
+  color: #fff;
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 125%;
+}
+.col-lg-4 a  {
+  font-size: 90%;
+}
+.col-lg-4 address  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+  font-size: 90%;
+}
+.col-lg-4 button  {
+  text-align: right;
+  float: right;
+}
+/* AKHIR PROFILE, CONTACT & EMAIL */
+
+/* AWAL FOOTER */
+.wrapper-footer  {
+  background: #0c1316;
+}
+.row-copy  {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-6 .copyright {
+  color: #fff;
+  font-size: 80%;
+  font-family: Poppins;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.col-lg-6 .list-inline  {
+  padding-top: 12px;
+  padding-left: 35%;
+  padding-right: 30%;
+}
+.list-inline-item a img  {
+  width:80%;
+}
+/* AKHIR FOOTER */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  /* AWAL PROFILE, CONTACT & EMAIL */
+.wrapper-content3  {
+  background: #21323b;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.col-lg-4  {
+  text-align: center;
+  margin: 30px;
+}
+.col-lg-4 p  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+}
+.col-lg-4 h5  {
+  color: #fff;
+  font-weight: bold;
+  font-family: Poppins;
+}
+.col-lg-4 address  {
+  color: #fff;
+  padding-top: 20px;
+  font-family: Poppins;
+}
+.col-lg-4 .form-control  {
+  width: 70%;
+  margin-left: 80px;
+  position: static;
+}
+.col-lg-4 button  {
+  margin-left: 10px;
+  text-align: left;
+  float: none;
+}
+/* AKHIR PROFILE, CONTACT & EMAIL */
+
+/* AWAL FOOTER */
+.wrapper-footer  {
+  background: #0c1316;
+}
+.row-copy  {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-6 .copyright {
+  color: #fff;
+  font-size: 90%;
+  font-family: Poppins;
+  padding-top: 15px;
+  padding-left: 15%;
+}
+.col-lg-6 .list-inline  {
+  padding-top: 12px;
+  padding-left: 40%;
+}
+/* AKHIR FOOTER */
+}
